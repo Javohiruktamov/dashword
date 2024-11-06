@@ -1,0 +1,8 @@
+.ideas{
+    height: 100vh;
+    &.dark{
+        background-color: black;
+        color: white;
+        border: 1px solid wheat;
+    }
+}

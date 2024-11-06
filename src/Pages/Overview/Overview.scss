@@ -1,0 +1,173 @@
+.home {
+    background-color: #F7F8FC;
+    
+}
+.home.dark{
+    background-color: black;
+    color: white;
+    .smallcard{
+        background-color: black;
+        color: white;
+    }
+    .bigCard{
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .box__wrapper-item{
+        background-color: black;
+        color: white;
+        .miniItem{
+            background-color: black;
+            color: white;
+        }
+        .miniBox{
+            background-color: black;
+            color: white;
+        }
+    }
+    .card{
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+
+    }
+    .inputText{
+        background-color: black;
+        color: white;
+    }
+    
+}
+
+
+.smallcard {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #9FA2B4;
+    text-align: center;
+    background-color: white;
+
+
+
+    .card-item {
+        width: 100%;
+        padding: 15px 0;
+        border-top: 1px solid #9FA2B4;
+        border-right: 1px solid #9FA2B4;
+
+        h2 {
+            color: black;
+        }
+
+    }
+
+    .card-item:nth-child(5) {
+        border-bottom: 1px solid #9FA2B4;
+    }
+
+
+}
+
+.bigCard {
+    width: 75%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #9FA2B4;
+    padding: 1rem;
+    background-color: white;
+
+
+    .bigCard-item {
+        width: 30%;
+
+        p {
+            color: #9FA2B4;
+
+        }
+    }
+
+}
+
+.box__wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
+
+    .box__wrapper-item {
+        width: 48%;
+        border: 1px solid #9FA2B4;
+        border-radius: 10px;
+        padding: 2rem 2rem 0;
+        background-color: white;
+
+
+        p {
+            color: #9FA2B4;
+        }
+
+        h2 {
+            span {
+                a {
+                    font-size: 16px;
+                    float: right;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .miniItem {
+            padding: 1rem 0;
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-bottom: 1px solid #9FA2B4;
+            background-color: white;
+
+
+            p {
+                color: #9FA2B4;
+            }
+        }
+
+
+
+        .miniBox {
+            padding: 1rem 0;
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #9FA2B4;
+            background-color: white;
+
+
+            p {
+                color: #9FA2B4;
+            }
+
+            .inputText {
+                display: block;
+                border: none;
+                font-size: 20px;
+            }
+
+            label {
+                font-size: 20px;
+                font-weight: bolder;
+                padding: 0 15px;
+            }
+        }
+
+
+    }
+}
